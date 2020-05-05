@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         //Создали эксземпляр объекта свич
-        self.mySwitch.frame = CGRect(x: 50, y: 100, width: 0, height: 0)
+        self.mySwitch.frame = CGRect(x: 25, y: 100, width: 0, height: 0)
         
         self.view.addSubview(self.mySwitch)
         //Свич по умолчанию включен
