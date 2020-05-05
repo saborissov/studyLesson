@@ -15,6 +15,7 @@
 		9BA3DCA6246090D700DA1592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA3DCA4246090D700DA1592 /* LaunchScreen.storyboard */; };
 		9BA3DCAE2460931B00DA1592 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3DCAD2460931B00DA1592 /* PopUpViewController.swift */; };
 		9BA3DCB224609F1100DA1592 /* PopUpViewControllerClose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3DCB124609F1100DA1592 /* PopUpViewControllerClose.swift */; };
+		9BA3DCB42461912000DA1592 /* ViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA3DCB32461912000DA1592 /* ViewControllerTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9BA3DCA7246090D700DA1592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BA3DCAD2460931B00DA1592 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 		9BA3DCB124609F1100DA1592 /* PopUpViewControllerClose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewControllerClose.swift; sourceTree = "<group>"; };
+		9BA3DCB32461912000DA1592 /* ViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +64,11 @@
 			children = (
 				9BA3DC99246090D300DA1592 /* AppDelegate.swift */,
 				9BA3DC9B246090D300DA1592 /* SceneDelegate.swift */,
+				9BA3DCB32461912000DA1592 /* ViewControllerTest.swift */,
 				9BA3DC9D246090D300DA1592 /* ViewController.swift */,
 				9BA3DCAD2460931B00DA1592 /* PopUpViewController.swift */,
-				9BA3DC9F246090D300DA1592 /* Main.storyboard */,
 				9BA3DCB124609F1100DA1592 /* PopUpViewControllerClose.swift */,
+				9BA3DC9F246090D300DA1592 /* Main.storyboard */,
 				9BA3DCA2246090D700DA1592 /* Assets.xcassets */,
 				9BA3DCA4246090D700DA1592 /* LaunchScreen.storyboard */,
 				9BA3DCA7246090D700DA1592 /* Info.plist */,
@@ -146,6 +149,7 @@
 			files = (
 				9BA3DC9E246090D300DA1592 /* ViewController.swift in Sources */,
 				9BA3DC9A246090D300DA1592 /* AppDelegate.swift in Sources */,
+				9BA3DCB42461912000DA1592 /* ViewControllerTest.swift in Sources */,
 				9BA3DCB224609F1100DA1592 /* PopUpViewControllerClose.swift in Sources */,
 				9BA3DC9C246090D300DA1592 /* SceneDelegate.swift in Sources */,
 				9BA3DCAE2460931B00DA1592 /* PopUpViewController.swift in Sources */,

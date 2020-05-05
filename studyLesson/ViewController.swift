@@ -12,20 +12,26 @@ import UIKit
 class ViewController: UIViewController {
     let mySwitch = UISwitch()
     
+    //создаем объект: mySwitch2 типа UISwitch
+    let mySwith2 = UISwitch()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
         //Создали эксземпляр объекта свич
         self.mySwitch.frame = CGRect(x: 290, y: 70, width: 0, height: 0)
-        
         self.view.addSubview(self.mySwitch)
         //Свич по умолчанию включен
-        //        self.mySwitch.setOn(true, animated: true)
+        //self.mySwitch.setOn(true, animated: true)
         //проверка на включение свича
         self.mySwitch.addTarget(self,
         action: #selector(swithChange(paramTarget:)), for: .valueChanged)
         
+        //Располагаем свич по центру
+//        self.mySwith2.frame = CGRect.zero
+//        self.mySwith2.center = self.view.center
+//        self.view.addSubview(mySwith2)
     }
     
     @objc func swithChange(paramTarget:UISwitch) {
