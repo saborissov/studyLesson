@@ -108,7 +108,7 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Корневой котроллер 2" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="664-At-5FI">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Корневой котроллер 2" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="664-At-5FI">
                                 <rect key="frame" x="99" y="123" width="216" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
@@ -117,9 +117,9 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="664-At-5FI" firstAttribute="leading" secondItem="LfV-qq-FsJ" secondAttribute="leading" constant="99" id="7Fn-9C-Cye"/>
-                            <constraint firstItem="LfV-qq-FsJ" firstAttribute="trailing" secondItem="664-At-5FI" secondAttribute="trailing" constant="99" id="PrG-jz-q8L"/>
-                            <constraint firstItem="664-At-5FI" firstAttribute="top" secondItem="LfV-qq-FsJ" secondAttribute="top" constant="111" id="WYm-a9-4Dn"/>
+                            <constraint firstItem="664-At-5FI" firstAttribute="leading" secondItem="LfV-qq-FsJ" secondAttribute="leading" constant="99" id="cgB-Y1-pjL"/>
+                            <constraint firstItem="LfV-qq-FsJ" firstAttribute="trailing" secondItem="664-At-5FI" secondAttribute="trailing" constant="99" id="h5g-i2-QHA"/>
+                            <constraint firstItem="664-At-5FI" firstAttribute="top" secondItem="LfV-qq-FsJ" secondAttribute="top" constant="123" id="y8w-RL-1VH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="LfV-qq-FsJ"/>
                     </view>
